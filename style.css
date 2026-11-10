@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Ganeva, Tahoma,
+    sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(125deg,
+    yellow, rgb(114, 113, 37), rgb(156, 156, 40));
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card:hover {
+    display: flex;
+    width: min(300px, 100%);
+    height: 300px;
+    background-color: rgb(2, 1, 5);
+    transition: transform 5s ease-in-out;
+    transform: rotate(9999999999999999deg); 
+    border-radius: 50%;
+
+     
+}
+
+
+
+@media (min-width: 500px) {
+    .seila{
+        display: flex;
+        width: min(300px, 100%);
+        height: 300px;
+        align-items: center;
+
+    }
+}
